@@ -1,0 +1,49 @@
+原文地址
+https://www.fatech.online/articles/2019/09/22/1569129004340.html
+
+conf  配置文件
+controller 处理强求
+module 控制数据
+static 静态static
+vendor 库文件
+docker 不输文件
+view html模版
+tmp 临时文件
+
+网络架构gin
+1.处理网络请求
+2.获取参数
+3.上传文件
+4.路由分组
+5.中间件启动
+6.日志文件
+7.模型绑定
+8.绑定uri
+9.设置静态文件
+10.返回渲染
+11.身份验证
+12.设置并获取cookie
+13.测试
+
+base64Captcha
+https://github.com/mojocn/base64Captcha
+
+mongo go的sdk
+https://github.com/globalsign/mgo
+
+go生成uuid
+https://github.com/satori/go.uuid
+
+图片存储
+https://github.com/aliyun/aliyun-oss-go-sdk
+
+前端
+Semantic UI
+https://semantic-ui.com/
+
+流程
+用户请求
+1.开放路由 返回获取
+2.认证路由
+  1.从cookie获取sid 后台查找sid 找到判断认证状态 是否超时 没超时 返回数据
+  2.获取失败 重定向到登陆界面
